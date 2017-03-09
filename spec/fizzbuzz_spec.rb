@@ -17,3 +17,5 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(0)).to eq 0
   end
 end
+
+1.upto(100) {|num| puts fizzbuzz(num)}
